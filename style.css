@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #0000ff;
+    color: white;
+    padding: 10px 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .logo h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #0000ff;
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #000ff0;
+    color: white;
+    padding: 0.1px 200px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #0000ff;
+}
+
+.services, .gallery, .testimonials, .contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.services .service-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.services .service {
+    width: 20%;
+    background-color: #f4f4f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(252, 251, 251);
+}
+
+.gallery-images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.gallery-images img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.testimonials {
+    background-color: #f4f4f9;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background-color: #0000ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: white;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
